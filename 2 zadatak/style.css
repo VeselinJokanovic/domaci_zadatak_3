@@ -1,0 +1,45 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.square input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.square button {
+  margin-top: -35px;
+  margin-left: 35px;
+}
+
+#add-square-btn{
+margin: auto;
+}
+
+#delete-square-btn{
+margin: auto;
+}
+
+#palindrome-message{
+  margin: auto;
+}
